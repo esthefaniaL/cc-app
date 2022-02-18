@@ -3,9 +3,9 @@ import ReactDOM from 'react-dom';
 import './index.css';
 import reportWebVitals from './reportWebVitals';
 import Badge from './components/Badge';
-import App from './components/App'
+import App from './components/App';
 import 'bootstrap/dist/css/bootstrap.css';
-
+import '../node_modules/font-awesome/css/font-awesome.min.css'; 
 
 
 ReactDOM.render(

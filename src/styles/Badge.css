@@ -1,3 +1,6 @@
+*{
+  font-family: cursive;
+}
 .badge {
     background: #ffffff;
     box-shadow: 0 4px 8px 0 rgba(29, 28, 29, 0.5);
@@ -63,8 +66,9 @@
     
   }
   .footer{
-  background: #c46cf4;
-  
+
+  position: relative;
+  border-top: 2px solid(0,0,0,0.24);
   left: 0;
   bottom: 0;
   width: 100%;
@@ -83,6 +87,7 @@
     display: flex;
     justify-content: space-between;
     padding: 40px;
+    background-color: #c46cf4;
 
   }
   .column1{
@@ -93,7 +98,7 @@
   }
   .column1 p{
     font-size: 14px;
-    color: teal;
+    color: #212529;
     margin-top: 20px;
   }
   .column2{
@@ -107,9 +112,12 @@ font-size: 22px;
     margin-top: 20px;
     display: flex;
   }
+  .column2 div{
+    color: #212529 ;
+  }
  
-  .row .column3 .copyrigth{
-    color: #1b1a1a;
+  .row .column3 {
+  
   }
  
   .container{
@@ -195,4 +203,4 @@ font-size: 22px;
     font-weight: bold;
     font-style: italic;
   }
-  
+ 
