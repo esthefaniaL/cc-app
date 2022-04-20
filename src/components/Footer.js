@@ -1,73 +1,69 @@
 import React from 'react';
 import logo from '../images/logo.png';
+import Servicios from './Services';
+
+import "../styles/Footer.css";
 
 class Footer extends React.Component {
 
   render() {
     return (
-      <div className="footer">
-        <footer>
-          <container-footer-all>
-            <div className="container-body">
-              <div className="column1">
-                <h1>¿Donde estamos ubicados? </h1>
-                <p>  Calle 2a No. 14-01 / Armenia, Quindío</p>
-                <p>+57 (6) 7459560 - 7455589</p>
-                <p> info@centrocomercialbolivar.com</p>
+      <body>
+      
+        <footer class="footer-distributed">
 
-              </div>
+          <div class="footer-left">
+            <img src={logo} style={{width:"20vw"}}/>
+            
 
-              <div className="column2">
-                <h1>Servicios </h1>
-                <div className="row">
-                  Tecnología
+            <p class="footer-links">
+              <a href="/">Inicio</a>
+              |
+              <a href="/servicios">Servicios</a>
+              |
+              <a href="#">Nosotros</a>
+              
+             
+            </p>
 
-                </div>
-                <div className="row">
-                  Leyes
+            <p class="footer-company-name">© 2021 Centro comercial bolivar.</p>
+          </div>
 
-                </div>
-                <div className="row">
-                  Salud
-
-                </div>
-                <div className="row">
-                  Belleza
-
-                </div>
-                <div className="row">
-                  Contabilidad
-
-                </div>
-
-              </div>
-              <div className="column3">
-                <div className="row">
-                  <img src={logo} alt="logo" />
-                  <div>
-                    <div className="redes" style={{ display: "flex", fontSize: "1.8vw" }}>
-                      <p>Redes</p>
-                      <a className="nav-link active" target="_blank" aria-current="page" href="https://www.facebook.com/centro.comercial.bolivar.armenia">
-                        <i class="fa fa-facebook-square" aria-hidden="true"></i></a>
-
-                      <a className="nav-link active" aria-current="page" target="_blank" href="https://www.instagram.com/cc_bolivar/">
-                        <i class="fa fa-instagram" aria-hidden="true"></i> </a>
-
-                      <a className="nav-link active" target="_blank" aria-current="page" href="https://www.youtube.com/watch?v=ymfHZMjt56U">
-                        <i class="fa fa-youtube-play" aria-hidden="true"></i></a>
-
-
-                    </div>
-                  </div>
-                  <p style={{ display: "flex" }}>Copyright © C.C Bolivar 2022</p>
-
-
-                </div>
-              </div>
+          <div class="footer-center">
+            <div>
+              <i class="fa fa-map-marker"></i>
+              <p><span>Calle 2A No. 14-01,
+                </span>
+                Armenia, Quindío</p>
             </div>
-          </container-footer-all>
+
+            <div>
+              <i class="fa fa-phone"></i>
+              <p>+57 (6) 7459560 - 7455589</p>
+            </div>
+            <div>
+              <i class="fa fa-envelope"></i>
+              <p><a href="#">info@centrocomercialbolivar.com</a></p>
+            </div>
+          </div>
+          <div class="footer-right">
+            <p class="footer-company-about">
+            <span>Servicios</span>
+              <span>Tecnología</span>
+              <span>Leyes</span>
+              <span>Salud</span>
+              <span>Belleza</span>
+              <span>Contabilidad</span>
+              </p>
+              
+            <div class="footer-icons">
+              <a target="_blank" href="https://www.facebook.com/centro.comercial.bolivar.armenia"><i class="fa fa-facebook"></i></a>
+              <a target="_blank" href="https://www.instagram.com/cc_bolivar/"><i class="fa fa-instagram" ></i></a>
+              <a target="_blank" href="https://www.youtube.com/watch?v=ymfHZMjt56U"><i class="fa fa-youtube" ></i></a>
+            </div>
+          </div>
         </footer>
-      </div>
+      </body>
     );
   }
 }
