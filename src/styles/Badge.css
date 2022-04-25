@@ -156,6 +156,10 @@
   .cuerpo{
     padding: 7vw;
   }
+  .card-img-top{
+    width: 350px;
+    height: 348px;
+  }
   @media (max-width: 1000px){
     .img-card{
      

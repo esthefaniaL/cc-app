@@ -9,6 +9,7 @@ import ent from '../images/entretenimiento.jpg';
 import ing from '../images/ing.jpg';
 import c from '../images/contabilidad.png';
 import p from '../images/publicidad.jpg';
+import "../styles/Badge.css";
 
 
 class Services extends React.Component {
@@ -51,7 +52,9 @@ class Services extends React.Component {
                         </div>
 
                         <div class="card">
+                        <a href="/CategoryBussinesTecnologia">
                             <img class="card-img-top" src={t} alt="Card image cap" />
+                            </a>
                             <div class="card-body">
                                 <h5 class="card-title">Tecnología</h5>
                             </div>
