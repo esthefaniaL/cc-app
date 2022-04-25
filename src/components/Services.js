@@ -23,6 +23,48 @@ class Services extends React.Component {
                 <div className="cards" style={{ width: "98%", marginLeft: "1rem" }}>
                     <div class="card-deck">
 
+                        <div class="card">
+                            <a href="/CategoryBussinesBelleza">
+                                <img class="card-img-top" src={m} alt="Card image cap" />
+                            </a>
+                            <div class="card-body">
+                                <h5 class="card-title">  Moda y belleza</h5>
+                            </div>
+                        </div>
+
+                        <div class="card">
+                            <a href="/CategoryBussinesEntretenimiento">
+                                <img class="card-img-top" src={ent} alt="Card image cap" />
+                            </a>
+                            <div class="card-body">
+                                <h5 class="card-title">Entrenimiento</h5>
+                            </div>
+                        </div>
+
+                        <div class="card">
+                            <a href="/CategoryBussinesSalud">
+                                <img class="card-img-top" src={s} alt="Card image cap" />
+                            </a>
+                            <div class="card-body">
+                                <h5 class="card-title">Salud</h5>
+                            </div>
+                        </div>
+
+                        <div class="card">
+                            <img class="card-img-top" src={t} alt="Card image cap" />
+                            <div class="card-body">
+                                <h5 class="card-title">Tecnología</h5>
+                            </div>
+                        </div>
+
+
+
+                        <row>
+
+                        </row>
+                    </div>
+
+                    <div class="card-deck">
 
 
                         <div class="card">
@@ -31,68 +73,31 @@ class Services extends React.Component {
                             </a>
                             <div class="card-body">
                                 <h5 class="card-title">Leyes</h5>
-                                <p class="card-text">This is a longer card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
 
                             </div>
                         </div>
-                        <div class="card">
-                            <img class="card-img-top" src={f} alt="Card image cap" />
-                            <div class="card-body">
-                                <h5 class="card-title">Finanzas</h5>
-                                <p class="card-text">This card has supporting text below as a natural lead-in to additional content.</p>
-                            </div>
-                        </div>
-                        <div class="card">
-                            <img class="card-img-top" src={t} alt="Card image cap" />
-                            <div class="card-body">
-                                <h5 class="card-title">Tecnología</h5>
-                                <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This card has even longer content than the first to show that equal height action.</p>
-                            </div>
-                        </div>
 
-                        <div class="card">
-                            <img class="card-img-top" src={s} alt="Card image cap" />
-                            <div class="card-body">
-                                <h5 class="card-title">Salud</h5>
-                                <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This card has even longer content than the first to show that equal height action.</p>
-                            </div>
-                        </div>
-
-                        <row>
-
-                        </row>
-                    </div>
-
-                    <div class="card-deck">
-                        <div class="card">
-                            <img class="card-img-top" src={m} alt="Card image cap" />
-                            <div class="card-body">
-                                <h5 class="card-title">  Moda y belleza</h5>
-                                <p class="card-text">This is a longer card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
-                            </div>
-                        </div>
                         <div class="card">
                             <img class="card-img-top" src={p} alt="Card image cap" />
                             <div class="card-body">
                                 <h5 class="card-title">Publicidad</h5>
-                                <p class="card-text">This card has supporting text below as a natural lead-in to additional content.</p>
                             </div>
                         </div>
                         <div class="card">
                             <img class="card-img-top" src={par} alt="Card image cap" />
                             <div class="card-body">
                                 <h5 class="card-title">Parqueadero</h5>
-                                <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This card has even longer content than the first to show that equal height action.</p>
                             </div>
                         </div>
 
                         <div class="card">
-                            <img class="card-img-top" src={ent} alt="Card image cap" />
+                            <img class="card-img-top" src={f} alt="Card image cap" />
                             <div class="card-body">
-                                <h5 class="card-title">Entrenimiento</h5>
-                                <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This card has even longer content than the first to show that equal height action.</p>
+                                <h5 class="card-title">Finanzas</h5>
                             </div>
                         </div>
+
+
 
 
 

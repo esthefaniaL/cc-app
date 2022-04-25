@@ -11,7 +11,7 @@ class CategoryBussines extends React.Component {
   render() {
     return (
 
-      <div>
+      <div className="bodyServices">
         <Cabezote></Cabezote>
 
         <div className="tile">
