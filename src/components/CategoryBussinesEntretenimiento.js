@@ -2,9 +2,8 @@ import React from 'react';
 import "bootstrap/dist/css/bootstrap.min.css";
 import Footer from './Footer';
 import Cabezote from './Cabezote';
-import logo from '../images/logo.png';
 import m from '../images/ent2.jpeg';
-import m3 from '../images/ent.jpeg';
+
 
 class CategoryBussinesEntretenimiento extends React.Component {
   render() {
@@ -20,12 +19,7 @@ class CategoryBussinesEntretenimiento extends React.Component {
           </div>
 
           <div className="container-b">
-            <div className="card">
-              <a href=""> <img src={m3} className="img-card" alt="leyes" /></a>
-              <h4>Gimnasio</h4>
-              <p>Contáctanos +57  350 654 7030</p>
-
-            </div>
+            
 
             <div className="card">
               <a href=""> <img src={m} className="img-card" alt="leyes" /></a>

@@ -44,12 +44,11 @@ class Cabezote extends React.Component {
                                             Servicios
                                         </a>
                                         <ul className="dropdown-menu" aria-labelledby="navbarDropdown">
-                                            <li><a className="dropdown-item" href="#">Leyes</a></li>
-                                            <li><a className="dropdown-item" href="#">Finanzas</a></li>
-                                            <li><a className="dropdown-item" href="#">Tecnología</a></li>
-                                            <li><a className="dropdown-item" href="#">Salud</a></li>
-                                            <li><a className="dropdown-item" href="#">Moda y belleza</a></li>
-                                            <li><a className="dropdown-item" href="#">Publicidad</a></li>
+                                            <li><a className="dropdown-item" href="/categoryBussinesBelleza">Belleza</a></li>
+                                            <li><a className="dropdown-item" href="/categoryBussinesEntretenimiento">Entretenimiento</a></li>
+                                            <li><a className="dropdown-item" href="/categoryBussinesSalud">Salud</a></li>
+                                            <li><a className="dropdown-item" href="/CategoryBussinesTecnologia">Tecnologia</a></li>
+                                            
                                             <li><hr className="dropdown-divider" /></li>
                                             <li><a className="dropdown-item" href="#">Parqueaderos</a></li>
                                         </ul>

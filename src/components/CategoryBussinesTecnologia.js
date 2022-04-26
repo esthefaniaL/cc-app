@@ -2,7 +2,6 @@ import React from 'react';
 import "bootstrap/dist/css/bootstrap.min.css";
 import Footer from './Footer';
 import Cabezote from './Cabezote';
-import logo from '../images/logo.png';
 import t from '../images/tec.jpeg';
 
 class CategoryBussinesTecnologia extends React.Component {

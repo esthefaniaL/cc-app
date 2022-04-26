@@ -13,13 +13,11 @@ class Footer extends React.Component {
         <footer class="footer-distributed">
 
           <div class="footer-left">
-            <img src={logo} style={{width:"20vw"}}/>
+            <img src={logo} style={{width:"20vw", marginLeft:"-3rem"}}/>
             
 
             <p class="footer-links">
               <a href="/">Inicio</a>
-              |
-              <a href="/servicios">Servicios</a>
               |
               <a href="#">Nosotros</a>
               
@@ -48,12 +46,12 @@ class Footer extends React.Component {
           </div>
           <div class="footer-right">
             <p class="footer-company-about">
-            <span>Servicios</span>
-              <span>Tecnología</span>
-              <span>Leyes</span>
-              <span>Salud</span>
-              <span>Belleza</span>
-              <span>Contabilidad</span>
+            <span>Servicios:</span>
+              <a href="/categoryBussinesBelleza"><span>Belleza </span></a>
+              <a href="/categoryBussinesEntretenimiento"><span>Entretenimiento </span>  </a>
+              <a href="/categoryBussinesSalud"><span>Salud </span>  </a>
+              <a href="/CategoryBussinesTecnologia"><span>Tecnologia </span>  </a>
+              <span>Parqueadero </span>
               </p>
               
             <div class="footer-icons">

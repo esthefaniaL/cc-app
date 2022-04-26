@@ -1,14 +1,9 @@
 import React from 'react';
-import f from '../images/finanzas.jpg';
-import l from '../images/leyes.jpg';
 import m from '../images/moda.jpg';
-import par from '../images/parqueaderos.jpg';
 import s from '../images/salud.jpg';
 import t from '../images/tecnologia.jpg';
 import ent from '../images/entretenimiento.jpg';
-import ing from '../images/ing.jpg';
-import c from '../images/contabilidad.png';
-import p from '../images/publicidad.jpg';
+
 import "../styles/Badge.css";
 
 
@@ -66,7 +61,7 @@ class Services extends React.Component {
 
                         </row>
                     </div>
-
+{/* 
                     <div class="card-deck">
 
 
@@ -107,7 +102,7 @@ class Services extends React.Component {
                         <row>
 
                         </row>
-                    </div>
+                    </div> */}
 
                 </div>
 
