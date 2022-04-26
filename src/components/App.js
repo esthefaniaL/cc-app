@@ -1,7 +1,7 @@
 import React from 'react';
 import { BrowserRouter, Switch, Route } from 'react-router-dom';
+import { MemoryRouter } from "react-router-dom";
 import Badges from './Badge';
-import CategoryBussines from './CategoryBussines';
 import CategoryBussinesBelleza from './CategoryBussinesBelleza';
 import CategoryBussinesEntretenimiento from './CategoryBussinesEntretenimiento';
 import CategoryBussinesSalud from './CategoryBussinesSalud';
@@ -13,11 +13,11 @@ import Nosotros from './Nosotros';
 
 function App() {
         return(
-        <BrowserRouter>
+        // eslint-disable-next-line react/jsx-no-undef
+        <MemoryRouter>
             <Switch>
                 <Route  exact path="/" component={Badges} />
                 <Route  exact path="/servicios" component={Services} />
-                <Route  exact path="/categoryBussines" component={CategoryBussines} />
                 <Route  exact path="/categoryBussinesBelleza" component={CategoryBussinesBelleza} />
                 <Route  exact path="/categoryBussinesEntretenimiento" component={CategoryBussinesEntretenimiento} />
                 <Route  exact path="/categoryBussinesSalud" component={CategoryBussinesSalud} />
@@ -27,7 +27,7 @@ function App() {
             </Switch>
         
         
-        </BrowserRouter>
+        </MemoryRouter>
     );
  
 }
