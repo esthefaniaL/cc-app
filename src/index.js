@@ -5,11 +5,13 @@ import reportWebVitals from './reportWebVitals';
 import App from './components/App';
 import 'bootstrap/dist/css/bootstrap.css';
 import '../node_modules/font-awesome/css/font-awesome.min.css'; 
+import { BrowserRouter } from 'react-router-dom';
 
 
 ReactDOM.render(
+  <BrowserRouter>,
   <App/>,
-  
+  </BrowserRouter>,
   document.getElementById('root')
 );
 
