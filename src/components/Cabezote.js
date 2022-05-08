@@ -16,8 +16,8 @@ class Cabezote extends React.Component {
 
                         <div className="redes" style={{ display: "flex"}}>
 
-                            <a className="nav-link active" target="_blank" aria-current="page" href="https://www.facebook.com/centro.comercial.bolivar.armenia">
-                                <i class="fa fa-facebook-square" aria-hidden="true" style={{color:"#414099"}}></i></a>
+                            {/* <a className="nav-link active" target="_blank" aria-current="page" href="https://www.facebook.com/centro.comercial.bolivar.armenia">
+                                <i class="fa fa-facebook-square" aria-hidden="true" style={{color:"#414099"}}></i></a> */}
 
                             <a className="nav-link active" aria-current="page" target="_blank" href="https://www.instagram.com/cc_bolivar/">
                                 <i class="fa fa-instagram" aria-hidden="true"style={{color:"#414099"}}></i> </a>
