@@ -9,15 +9,15 @@ class Cabezote extends React.Component {
             <div className="cabezote">
                 <nav class="navbar navbar-light navbar-expand-lg sticky-top navigation-clean" data-aos="fade-down" data-aos-once="true" data-toggle="affix">
 
-                    <div class="container-fluid" style={{ position: "fixed", backgroundColor: "white" , alignItems:"center", padding:"0rem 3rem 0rem 0rem", height:"7vh"}}>
+                    <div class="container-fluid" style={{ position: "fixed", backgroundColor: "white" , alignItems:"center", margin:"7rem 0rem 3.3rem 0rem", height:"8.5vh"}}>
 
 
                         <a class="navbar-brand" href="./"> <img src={logo} alt="logo" className='logo-img' style={{ display: "flex"}} /></a>
 
                         <div className="redes" style={{ display: "flex"}}>
 
-                            {/* <a className="nav-link active" target="_blank" aria-current="page" href="https://www.facebook.com/centro.comercial.bolivar.armenia">
-                                <i class="fa fa-facebook-square" aria-hidden="true" style={{color:"#414099"}}></i></a> */}
+                            <a className="nav-link active" target="_blank" aria-current="page" href="https://www.facebook.com/centro.comercial.bolivar.armenia">
+                                <i class="fa fa-facebook-square" aria-hidden="true" style={{color:"#414099"}}></i></a>
 
                             <a className="nav-link active" aria-current="page" target="_blank" href="https://www.instagram.com/cc_bolivar/">
                                 <i class="fa fa-instagram" aria-hidden="true"style={{color:"#414099"}}></i> </a>
