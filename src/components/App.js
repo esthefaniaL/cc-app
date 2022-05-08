@@ -1,5 +1,5 @@
 import React from 'react';
-import { BrowserRouter, Switch, Route } from 'react-router-dom';
+import { Router, Switch, Route } from 'react-router-dom';
 import Badges from './Badge';
 import CategoryBussinesBelleza from './CategoryBussinesBelleza';
 import CategoryBussinesEntretenimiento from './CategoryBussinesEntretenimiento';
@@ -12,7 +12,7 @@ import Nosotros from './Nosotros';
 
 function App() {
         return(
-        <BrowserRouter>
+        <Router>
             <Switch>
                 <Route  exact path="/" component={Badges} />
                 <Route  exact path="/servicios" component={Services} />
@@ -25,7 +25,7 @@ function App() {
             </Switch>
         
         
-        </BrowserRouter>
+        </Router>
     );
  
 }
