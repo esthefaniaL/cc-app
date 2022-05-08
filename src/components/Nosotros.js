@@ -27,7 +27,7 @@ class Nosotros extends React.Component {
                         </p>
 
                         <p>El centro comercial Bolívar abre
-                            sus puertas al público el 7 de
+                            sus puertas al público el xx de
                             diciembre de 1987, convirtiendose
                             en un referente de la ciudad
                             por su ubicación e impacto
