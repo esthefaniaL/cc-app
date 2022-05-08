@@ -31,7 +31,7 @@ class Nosotros extends React.Component {
                             diciembre de 1987, convirtiendose
                             en un referente de la ciudad
                             por su ubicación e impacto
-                            sobre el entorno</p>
+                             el entorno</p>
                     </div>
                 </div>
                 <Footer></Footer>
