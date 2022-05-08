@@ -12,7 +12,7 @@ class Cabezote extends React.Component {
                     <div class="container-fluid" style={{ position: "fixed", backgroundColor: "white" , alignItems:"center", padding:"0rem 3rem 0rem 0rem", height:"7vh"}}>
 
 
-                        <a class="navbar-brand" href="./"> <img src={logo} alt="logo" className='logo-img' style={{ display: "flex"}} /></a>
+                        <a class="navbar-brand" href="./"> <img src={logo} alt="logo" className='logo-img' style={{ display: "none"}} /></a>
 
                         <div className="redes" style={{ display: "flex"}}>
 
