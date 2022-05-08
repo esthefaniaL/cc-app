@@ -9,7 +9,7 @@ class Cabezote extends React.Component {
             <div className="cabezote">
                 <nav class="navbar navbar-light navbar-expand-lg sticky-top navigation-clean" data-aos="fade-down" data-aos-once="true" data-toggle="affix">
 
-                    <div class="container-fluid" style={{ position: "fixed", backgroundColor: "white" , alignItems:"center", padding:"0rem 3rem 0rem 0rem"}}>
+                    <div class="container-fluid" style={{ position: "fixed", backgroundColor: "white" , alignItems:"center", padding:"0rem 3rem 0rem 0rem", height:"8vh"}}>
 
 
                         <a class="navbar-brand" href="./"> <img src={logo} alt="logo" className='logo-img' style={{ display: "flex"}} /></a>

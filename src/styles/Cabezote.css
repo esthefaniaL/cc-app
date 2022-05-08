@@ -5,11 +5,13 @@
  padding: 0.5rem 0rem !important;
 }
 .container-fluid{
+  
     background: rgb(199,221,104);
 background: linear-gradient(357deg, rgba(199,221,104,1) 0%, rgba(231,241,154,1) 100%);
 }
 .logo-img{
     width:15vw ;
+    height: 7vh;
     
 }
 
