@@ -16,7 +16,7 @@ class Services extends React.Component {
                     <h6 className="text-center"> Contamos con un comercio de servicio que participa activamente en diversas categorías</h6>
                 </div>
 
-                <div className="cards" style={{ width: "98%", marginLeft: "1rem" }}>
+                <div className="cards" style={{ width: "98%", marginLeft: "1rem", paddingBottom:"4rem" }}>
                     <div class="card-deck">
 
                         <div class="card">

@@ -1,0 +1,24 @@
+.cont-history{
+    padding: 10px 10px 10px 3rem;
+    padding-top: 20rem;
+    display: flex;
+    flex-direction: column;
+    background-image: url("../images/fondox.png");
+    opacity: .9;
+    z-index: 1;
+    background-image: no-repeat;
+    background-image: fixed;
+    background-image: center;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+
+}
+.history{
+    display: flex;
+}
+
+.history-x{
+    display: flex;
+}
