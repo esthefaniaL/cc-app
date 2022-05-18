@@ -31,6 +31,20 @@ background: linear-gradient(357deg, rgba(199,221,104,1) 0%, rgba(231,241,154,1) 
 
     .container-fluid{
       padding: .7rem 1rem 3rem 0rem !important;
+      margin: 6rem 0rem 3.3rem !important;
     }
     
 }
+@media all and (min-width: 700px), handheld and (orientation: landscape) { 
+    .logo-img{
+        width: 20vw !important;
+     }
+ 
+     .redes{
+        font-size: 2vw !important;
+    }
+    .container-fluid{
+        margin: 6rem 0rem 3.3rem !important;
+      }
+
+ }
