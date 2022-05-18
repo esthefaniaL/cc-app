@@ -32,9 +32,9 @@ class Cabezote extends React.Component {
 
                         <div>
                             <div className="collapse navbar-collapse" id="navbarSupportedContent">
-                                <ul className="navbar-nav me-auto mb-2 mb-lg-0" style={{ fontSize: "19px"}}>
-                                    <li className="nav-item">
-                                        <a className="nav-link active" aria-current="page" href="/">Inicio</a>
+                                <ul className="nav navbar-nav " style={{ fontSize: "19px"}}>
+                                    <li className="nav-item ">
+                                        <a className="nav-link " aria-current="page" href="/">Inicio</a>
                                     </li>
                                     <li className="nav-item">
                                         <a className="nav-link" href="/nosotros">Nosotros</a>
@@ -49,13 +49,12 @@ class Cabezote extends React.Component {
                                             <li><a className="dropdown-item" href="/categoryBussinesSalud">Salud</a></li>
                                             <li><a className="dropdown-item" href="/CategoryBussinesTecnologia">Tecnologia</a></li>
                                             
-                                            <li><hr className="dropdown-divider" /></li>
-                                            <li><a className="dropdown-item" href="#">Parqueaderos</a></li>
+                                           
                                         </ul>
                                     </li>
                                     
                                     <li className="nav-item">
-                                        <a className="nav-link" href="#">Contacto</a>
+                                        <a className="nav-link" href="#footer">Contacto</a>
                                     </li>
                                 </ul>
                             </div>

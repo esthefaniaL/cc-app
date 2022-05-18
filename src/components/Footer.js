@@ -51,7 +51,7 @@ class Footer extends React.Component {
               <a href="/categoryBussinesEntretenimiento"><span>Entretenimiento </span>  </a>
               <a href="/categoryBussinesSalud"><span>Salud </span>  </a>
               <a href="/CategoryBussinesTecnologia"><span>Tecnologia </span>  </a>
-              <span>Parqueadero </span>
+              
               </p>
               
             <div class="footer-icons">

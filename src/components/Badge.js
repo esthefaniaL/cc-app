@@ -32,9 +32,14 @@ class Badge extends React.Component {
             </ul>
           </div>
 
+         
+
         </div>
         <Servicios></Servicios>
-
+        <div>
+                    <h6 className="text-center" style={{paddingBottom:"2rem"}}>Tambien contamos con servicio de Parqueadero</h6>
+                </div>
+      
         <div className="footer">
           <Footer></Footer>
         </div>
