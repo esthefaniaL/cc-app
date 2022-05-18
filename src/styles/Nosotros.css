@@ -1,6 +1,6 @@
 .cont-history{
     padding: 10px 10px 10px 3rem;
-    padding-top: 20rem;
+    padding-top: 5rem;
     display: flex;
     flex-direction: column;
     background-image: url("../images/fondox.png");
@@ -21,4 +21,46 @@
 
 .history-x{
     display: flex;
+}
+.img-thumbnail{
+    width: 30vw;
+    height: 37vh;
+}
+.myv{
+    width: 27vw;
+}
+.text-center{
+    font-size: 2rem;
+}
+.text-center.nostros{
+    font-size: 3rem;
+}
+.text-historia{
+    width: 25vw;
+    padding-right: 1rem;
+
+}
+.text-proyec{
+    width: 25;
+}
+
+.justify-content-center{
+    padding: 1.5rem 0.5rem 3.5rem 1.5rem;
+}
+@media (max-width: 1000px){
+    .text-historia{
+        width: 100%;
+        padding-right: 1rem;
+    
+    }
+    .myv{
+        width: 100%;
+        padding-right: 1rem;
+    
+    }
+    .img-thumbnail{
+        display: none;
+    }
+  
+    
 }
